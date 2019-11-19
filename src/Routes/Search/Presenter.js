@@ -70,7 +70,7 @@ const Presenter = ({
 Presenter.propTypes = {
   movieResults: PropTypes.array,
   tvResults: PropTypes.array,
-  searchTerm: PropTypes.array,
+  searchTerm: PropTypes.string,
   loading: PropTypes.bool.isRequired,
   error: PropTypes.string,
   handleSubmit: PropTypes.func.isRequired,
